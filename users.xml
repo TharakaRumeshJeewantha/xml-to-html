@@ -1,0 +1,119 @@
+<alluser>
+	<user>
+		<id> 1 </id>
+		<uid> U001 </uid>
+		<firstname> Tharaka </firstname>
+		<lastname> Rumesh </lastname>
+		<gender> Male </gender>
+		<age> 26 </age>
+		<country> Sri Lanka </country>
+	</user>
+	<user>
+		<id> 2 </id>
+		<uid> U002 </uid>
+		<firstname> Rumesh </firstname>
+		<lastname> Jeewantha </lastname>
+		<gender> Male </gender>
+		<age> 27 </age>
+		<country> Sri Lanka </country>
+	</user>	
+	<user>
+		<id> 3 </id>
+		<uid> U003 </uid>
+		<firstname> Hasanthini </firstname>
+		<lastname> Herath </lastname>
+		<gender> Female </gender>
+		<age> 26 </age>
+		<country> Sri Lanka </country>
+	</user>
+	<user>
+		<id> 4 </id>
+		<uid> U004 </uid>
+		<firstname> Gayani </firstname>
+		<lastname> Dilshani </lastname>
+		<gender> Female </gender>
+		<age> 28 </age>
+		<country> Sri Lanka </country>
+	</user>
+	<user>
+		<id> 6 </id>
+		<uid> U006 </uid>
+		<firstname> Steve </firstname>
+		<lastname> Smith </lastname>
+		<gender> Male </gender>
+		<age> 29 </age>
+		<country> Australia </country>
+	</user>
+	<user>
+		<id> 7 </id>
+		<uid> U007 </uid>
+		<firstname> Hashim </firstname>
+		<lastname> Amla </lastname>
+		<gender> Male </gender>
+		<age> 32 </age>
+		<country> South Africa </country>
+	</user>
+	<user>
+		<id> 8 </id>
+		<uid> U008 </uid>
+		<firstname> Jessica </firstname>
+		<lastname> Taylor </lastname>
+		<gender> Female </gender>
+		<age> 37 </age>
+		<country> England </country>
+	</user>
+	<user>
+		<id> 9 </id>
+		<uid> U009 </uid>
+		<firstname> Micheal </firstname>
+		<lastname> Clarke </lastname>
+		<gender> Male </gender>
+		<age> 38 </age>
+		<country> Australia </country>
+	</user>
+	<user>
+		<id> 10 </id>
+		<uid> U0010 </uid>
+		<firstname> Chris </firstname>
+		<lastname> Gayle </lastname>
+		<gender> Male </gender>
+		<age> 36 </age>
+		<country> West Indies </country>
+	</user>
+	<user>
+		<id> 11 </id>
+		<uid> U0011 </uid>
+		<firstname> David </firstname>
+		<lastname> Warner </lastname>
+		<gender> Male </gender>
+		<age> 31 </age>
+		<country> Australia </country>
+	</user>
+	<user>
+		<id> 12 </id>
+		<uid> U0012 </uid>
+		<firstname> Martin </firstname>
+		<lastname> Guptil </lastname>
+		<gender> Male </gender>
+		<age> 29 </age>
+		<country> New Zealand </country>
+	</user>
+	<user>
+		<id> 13 </id>
+		<uid> U0013 </uid>
+		<firstname> Trent </firstname>
+		<lastname> Boult </lastname>
+		<gender> Male </gender>
+		<age> 29 </age>
+		<country> New Zealand </country>
+	</user>
+	<user>
+		<id> 14 </id>
+		<uid> U0014 </uid>
+		<firstname> Brendon </firstname>
+		<lastname> Taylor </lastname>
+		<gender> Male </gender>
+		<age> 34 </age>
+		<country> Zimbabwe </country>
+	</user>
+</alluser>

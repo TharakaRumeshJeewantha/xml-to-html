@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XML to HTML</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<script>
+  if(window.XMLHttpRequest)
+  {
+    xmlhttp = new XMLHttpRequest();
+  }
+  else {
+    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
+  xmlhttp.open("GET", "users.xml", false);
+  xmlhttp.send();
+  xmlDoc = xmlhttp.responseXML;
+
+  document.write("<div class='container'>");
+  document.write("<div class='table-responsive'>");
+  document.write("<h1 align='center'>XML Data to HTML Bootstrap Table view</h1> <br>");
+  document.write("<p align='center'>XML, HTML, AJAX, JQuery with Bootstrap</p> <hr>");
+  document.write("<table class='table table-bordered table-striped'");
+  document.write("<tr>");
+  document.write("<th>User ID</th>");
+  document.write("<th>First Name</th>");
+  document.write("<th>Last Name</th>");
+  document.write("<th>Gender</th>");
+  document.write("<th>Age</th>");
+  document.write("<th>Country</th>");
+  document.write("</tr>");
+
+  var uid = xmlDoc.getElementsByTagName("id");
+
+  for (i=0; i<uid.length; i++) 
+  {
+    document.write("<tr>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("uid")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("firstname")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("lastname")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("gender")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("age")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("<td>");
+    document.write(xmlDoc.getElementsByTagName("country")[i].childNodes[0].nodeValue);
+    document.write("</td>");
+    document.write("</tr>");
+  }
+
+  document.write("</table>");
+  document.write("</div>");
+  document.write("</div>");
+
+</script>       
+        
+</body>
+</html>
+
